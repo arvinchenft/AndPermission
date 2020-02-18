@@ -1,4 +1,7 @@
 apply from: "config.gradle"
+apply plugin: 'maven'
+
+group = 'com.github.arvinchenft'
 
 buildscript {
     repositories {
